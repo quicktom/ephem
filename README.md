@@ -14,7 +14,7 @@ Example: ./ephem -t luna --traditional
 
 How to build ?
 
-1. Compilpe AA+ v2.05 A class framework for Computational Astronomy
+1. Compile AA+ v2.05 A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
 (build unzip, cmake, make, make install and use LD_LIBRARY_PATH="/usr/local/lib")
 
