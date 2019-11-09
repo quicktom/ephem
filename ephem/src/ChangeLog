@@ -1,0 +1,5 @@
+2019-11-09  thomas  <thomas@iueifm-12-415-02>
+
+	* config.hpp.in: New file.
+	* CMakeLists.txt: 		cmake build included
+	* ephem.cpp (main): 	minor changes in documentation
