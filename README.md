@@ -12,7 +12,7 @@ Example: ./ephem -t luna --traditional
 
 2019-11-09 18:43:22 +01h06m04.52s +00°41m02.13s +21h33m35.03s +317°15m12.67s +28°34m38.76s
 
-How to build ?
+How to build on Ubuntu ? 
 
 1. Compile AA+ v2.05 A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
@@ -20,11 +20,11 @@ How to build ?
 
 2. Install Boost C++ libraries version >= 1.65.1 
 (see https://www.boost.org/ for source, documentation and https://www.boost.org/users/license.html for license).
-(on ubuntu use "sudo apt-get install libboost-all-dev")
+(use "sudo apt-get install libboost-all-dev")
 
-3. Run cmake ephem/src and make .. .
+3. Create a directory and run cmake ephem/src and make there.
 
-4. Type ./ephem -h or ./ephem -d to get more info.
+4. Type ./bin/ephem -h or ./ephem -d to get more info.
 
 ```
 Usage: ephem -options ...
