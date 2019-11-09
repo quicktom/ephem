@@ -18,11 +18,11 @@ How to build ?
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
 (unzip, cmake, make, make install and use LD_LIBRARY_PATH="/usr/local/lib")
 
-2. Install Boost C++ libraries version 1_65_1
+2. Install Boost C++ libraries version >= 1.65.1 
 (see https://www.boost.org/ for source, documentation and https://www.boost.org/users/license.html for license).
 (on ubuntu use "sudo apt-get install libboost-all-dev")
 
-3. Run cmake ../ephem/src and make .. .
+3. Run cmake ephem/src and make .. .
 
 4. Type ./ephem -h or ./ephem -d to get more info.
 
