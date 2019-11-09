@@ -6,7 +6,7 @@ date/time Ra De Ha Az Al to stdout for a given target
 It also converts Az Al -> Ra De(Ha) and
 Ha De -> Ra De(and Az Al).**
 
-***It is a command line wrapper for the AA+ class framework for Computational Astronomy.***
+***It is a command line wrapper of the AA+ class framework for Computational Astronomy.***
 
 Example: ./ephem -t luna --traditional
 
