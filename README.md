@@ -33,7 +33,7 @@ which are | date and time string | RightAscension | Declination | LocalHourAngle
 
 4. Type ./bin/ephem -h or ./ephem -d to get more info.
 
-#How to use?
+# How to use?
 
 ```
 Usage: ephem -options ...
@@ -103,7 +103,7 @@ Example:	Get ephemerides of the sun at Phuket  2020-12-24 0:0:0 UTC in steps of 
 2020-12-24 23:00:00 +18h15m43.60s -23°23m17.21s +17h34m44.31s +292°34m48.67s -08°08m21.44s
 ```
   
-#How to use a config file?
+# How to use a config file?
 
 Run ./ephem -c config.ini . 
 
