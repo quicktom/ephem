@@ -12,8 +12,9 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
 configure_file(${PROJECT_SOURCE_DIR}/config.hpp.in ${PROJECT_SOURCE_DIR}/config.hpp)
 
-
+# find aa+ includes
 include_directories(${PROJECT_SOURCE_DIR}/../../lib/src)
+
 add_executable(			ephem ephem.cpp CAAPrintValue.cpp CAAObserveTarget.cpp FK5_1.cpp FK6.cpp)
 
 target_compile_options (ephem PRIVATE -std=c++0x -O3 -g0 -Wall -c -fmessage-length=0)
