@@ -29,7 +29,7 @@ which are | date and time string | RightAscension | Declination | LocalHourAngle
 (see https://www.boost.org/ for source, documentation and https://www.boost.org/users/license.html for license).
 (use "sudo apt-get install libboost-all-dev")
 
-3. Create a directory, cd <directory>, run cmake <pathto>/ephem/src and make there.
+3. Create a directory, cd directory, run cmake pathto/ephem/src and make there.
 
 4. Type ./bin/ephem -h or ./ephem -d to get more info.
 
