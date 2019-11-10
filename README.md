@@ -8,7 +8,7 @@ to stdout for a given target (sun, luna, planets, stars from FK5 and FK6), obser
 
 *It is a command line wrapper to a small subset of the AA+ class framework for Computational Astronomy.*
 
-#Example
+# Example
 
 Where is luna right now in the city Kiel of Germany? 
 
@@ -19,7 +19,7 @@ Where is luna right now in the city Kiel of Germany?
 which are | date and time string | RightAscension | Declination | LocalHourAngle | LocalAzimuth | LocalAltitude .
 
 
-#How to build on Ubuntu? 
+# How to build on Ubuntu? 
 
 1. Compile AA+ v2.05 A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
