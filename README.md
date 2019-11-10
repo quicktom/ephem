@@ -108,6 +108,7 @@ Example:	Get some ephemerides of the sun at Kiel/germany in december 2019.
 
 Run ./ephem -c config.ini . 
 
+Where is polaris right now seen from Kiel/Germany?
 
 ```
 # example config file 
