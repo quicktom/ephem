@@ -18,7 +18,7 @@ like ST F476.
 
 # Example
 
-Where is luna right now seen from the city Kiel of Germany? 
+Where is luna right now seen from the city Kiel/Germany? 
 
 ./ephem -t luna --traditional
 
@@ -80,7 +80,7 @@ Options:
   -c [ --config ] arg               Load config file.
   ```
 
-Example:	Get some ephemerides of the sun at Kiel/germany in december 2019.
+Example:	Get some ephemerides of the sun at Kiel/Germany in december 2019.
 
 ./ephem -t  sun --steps 24 --UTC "2019-12-10 11:20:0"  --traditional
 
