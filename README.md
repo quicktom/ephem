@@ -7,7 +7,7 @@ ephem is a minimalistic astrometry tool which returns
 to stdout for a given target (sun, luna, planets, stars from FK5 and FK6), observer location at UTC date and time.
 RightAscension and Declination are in Jnow reference frame. Times all in UTC.
 
-RightAscension, Declination, LocalHourAngle, LocalAzimuth and LocalAltitude is apparent to the observer.
+RightAscension, Declination, LocalHourAngle, LocalAzimuth and LocalAltitude are apparent to the observer.
 
 *It is a command line wrapper to a small subset of the AA+ class framework for Computational Astronomy.*
 
