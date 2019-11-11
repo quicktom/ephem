@@ -11,7 +11,7 @@ RightAscension and Declination are in Jnow reference frame. Times all in UTC.
 
 # Example
 
-Where is luna right now in the city Kiel of Germany? 
+Where is luna right now seen from the city Kiel of Germany? 
 
 ./ephem -t luna --traditional
 
@@ -107,9 +107,9 @@ Example:	Get some ephemerides of the sun at Kiel/germany in december 2019.
   
 # How to use a config file?
 
-Run ./ephem -c config.ini . 
-
 Where is polaris right now seen from Kiel/Germany?
+
+Run ./ephem -c config.ini . 
 
 ```
 # example config file 
