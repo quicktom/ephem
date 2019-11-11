@@ -8,7 +8,7 @@ to stdout for a given target (sun, luna, planets, stars from FK5 and FK6), obser
 RightAscension and Declination are in Jnow reference frame. Times all in UTC.
 
 RightAscension, Declination, LocalHourAngle, LocalAzimuth and LocalAltitude are apparent to the observer (including atmospherical aberration and parallax).
-AA+ uses VSOP und ELP models, fk5 and fk6 include proper motion, precession, nutuation, aberration.
+AA+ uses VSOP und ELP models, fk5 and fk6 (including proper motion, precession, nutuation, aberration).
 So the results pretty precise down to arcsec (in comparison to JPL horizons ephemerides).
 
 *It is a command line wrapper to a small subset of the AA+ class framework for Computational Astronomy.*
