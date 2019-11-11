@@ -9,6 +9,11 @@ RightAscension and Declination are in Jnow reference frame. Times all in UTC.
 
 *It is a command line wrapper to a small subset of the AA+ class framework for Computational Astronomy.*
 
+# Whats the idea behind ?
+
+ephem is a part of a DIY telescope mount library. So is it designed to be compact and fits into midsized controller designs
+like ST F476.
+
 # Example
 
 Where is luna right now seen from the city Kiel of Germany? 
