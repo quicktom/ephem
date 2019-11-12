@@ -32,14 +32,14 @@ which are | date and time string | RightAscension | Declination | LocalHourAngle
 # How to build on Ubuntu? 
 
 Create the directory sturcture:
-
+```
  ephem
 |_ src  sources of ephem
 lib
 |_ src  unzip AA+ sources into
 make
 |_      cmake build directiory     
-
+```
 1. Compile AA+ >= v2.05  A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
 ```
