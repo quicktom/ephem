@@ -62,6 +62,9 @@ cmake ../ephem/src
 make
 ./bin/ephem -d
 ```
+
+If you use eclipse set includes to A++ and link boost_date_time.so boost_program_options.so aaplus.so.
+
 # How to use?
 
 ```
