@@ -47,7 +47,8 @@ cd lib
 cmake src/
 make
 sudo make install
-and LD_LIBRARY_PATH="/usr/local/lib"
+LD_LIBRARY_PATH=/usr/local/lib
+export LD_LIBRARY_PATH
 ```
 
 2. Install Boost C++ libraries version >= 1.65.1 
