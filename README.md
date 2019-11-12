@@ -31,17 +31,35 @@ which are | date and time string | RightAscension | Declination | LocalHourAngle
 
 # How to build on Ubuntu? 
 
+Create the directory sturcture:
+
+ ephem
+|_ src  sources of ephem
+lib
+|_ src  unzip AA+ sources into
+make
+|_      cmake build directiory     
+
 1. Compile AA+ >= v2.05  A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
-(unzip, cmake, make, make install and use LD_LIBRARY_PATH="/usr/local/lib")
+
+cd lib
+cmake src/
+make
+sudo make install
+and LD_LIBRARY_PATH="/usr/local/lib"
 
 2. Install Boost C++ libraries version >= 1.65.1 
 (see https://www.boost.org/ for source, documentation and https://www.boost.org/users/license.html for license).
-(use "sudo apt-get install libboost-all-dev")
 
-3. Create a directory, cd directory, run cmake pathto/ephem/src and make there.
+sudo apt-get install libboost-all-dev
 
-4. Type ./bin/ephem -h or ./ephem -d to get more info.
+3. Compile ephem
+
+cd ../make/
+cmake ../ephem/src
+make
+./bin/ephem -d
 
 # How to use?
 
