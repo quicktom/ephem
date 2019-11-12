@@ -38,7 +38,7 @@ Create the directory sturcture:
 lib
 |_ src  unzip AA+ sources into
 make
-|_      cmake build directiory     
+|_      cmake build directory     
 ```
 1. Compile AA+ >= v2.05  A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
