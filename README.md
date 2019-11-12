@@ -42,25 +42,26 @@ make
 
 1. Compile AA+ >= v2.05  A class framework for Computational Astronomy
 (see http://www.naughter.com/aa.html for source, documentation and copyright)
-
+```
 cd lib
 cmake src/
 make
 sudo make install
 and LD_LIBRARY_PATH="/usr/local/lib"
+```
 
 2. Install Boost C++ libraries version >= 1.65.1 
 (see https://www.boost.org/ for source, documentation and https://www.boost.org/users/license.html for license).
-
+```
 sudo apt-get install libboost-all-dev
-
+```
 3. Compile ephem
-
+```
 cd ../make/
 cmake ../ephem/src
 make
 ./bin/ephem -d
-
+```
 # How to use?
 
 ```
